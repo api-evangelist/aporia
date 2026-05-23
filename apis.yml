@@ -1,0 +1,142 @@
+aid: aporia
+url: https://raw.githubusercontent.com/api-evangelist/aporia/refs/heads/main/apis.yml
+name: Aporia
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- AI Guardrails
+- ML Observability
+- LLM Monitoring
+- Coralogix
+- Acquired
+- Hallucination Detection
+- Policy Enforcement
+description: Aporia was an AI guardrails and observability platform for production LLM and ML applications, known for low-latency
+  guardrails covering hallucination, prompt injection, PII, toxicity, off-topic responses, and custom policies, alongside
+  full ML monitoring for drift and data quality. Coralogix acquired Aporia in late 2024 and the Aporia guardrails technology
+  is now offered as part of the Coralogix AI Observability and AI Guardrails product line, with the standalone Aporia.com
+  experience consolidated into Coralogix's portfolio.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: aporia:coralogix-ai-guardrails
+  name: Coralogix AI Guardrails
+  tags:
+  - Guardrails
+  - LLM Security
+  - Policy Enforcement
+  - Coralogix
+  humanURL: https://coralogix.com/ai-observability-and-security/
+  properties:
+  - url: https://coralogix.com/ai-observability-and-security/
+    type: Documentation
+  description: Coralogix AI Guardrails is the post-acquisition continuation of Aporia's guardrails product, intercepting
+    prompts and responses between applications and LLMs to enforce policies covering hallucination, prompt injection, PII,
+    toxicity, and custom rules. Delivered as part of Coralogix's AI Observability and Security platform.
+- aid: aporia:coralogix-ai-observability
+  name: Coralogix AI Observability
+  tags:
+  - LLM Observability
+  - Monitoring
+  - Tracing
+  - Coralogix
+  humanURL: https://coralogix.com/ai-observability-and-security/
+  properties:
+  - url: https://coralogix.com/ai-observability-and-security/
+    type: Documentation
+  description: Coralogix AI Observability combines Aporia's monitoring capabilities with Coralogix's logging and tracing
+    backend to provide end-to-end visibility into LLM and agent applications, including agent discovery, performance metrics,
+    and behavioral analysis.
+- aid: aporia:aporia-guardrails-legacy
+  name: Aporia Guardrails (Legacy)
+  tags:
+  - Guardrails
+  - LLM Security
+  - Legacy
+  - Policy Enforcement
+  humanURL: https://www.aporia.com/
+  properties:
+  - url: https://www.aporia.com/
+    type: Documentation
+  description: The original Aporia Guardrails product offered millisecond-latency policy enforcement on LLM prompts and
+    responses with a library of pre-built detectors (hallucination, prompt injection, PII, toxicity, restricted topics,
+    competitor mentions) plus a custom policy builder. Capabilities are continuing under the Coralogix brand following
+    the acquisition.
+- aid: aporia:aporia-ml-observability-legacy
+  name: Aporia ML Observability (Legacy)
+  tags:
+  - ML Monitoring
+  - Drift Detection
+  - Legacy
+  - Data Quality
+  humanURL: https://www.aporia.com/
+  properties:
+  - url: https://www.aporia.com/
+    type: Documentation
+  description: Aporia ML Observability provided monitoring for classical ML models including drift detection, data quality
+    checks, performance tracking, and custom monitors. Now consolidated into the Coralogix observability platform.
+common:
+- type: Website
+  url: https://www.aporia.com/
+- type: CoralogixProduct
+  url: https://coralogix.com/ai-observability-and-security/
+- type: AcquiredBy
+  url: https://coralogix.com/
+- type: Blog
+  url: https://www.aporia.com/learn/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aporia/
+- type: GitHubOrganization
+  url: https://github.com/aporia-ai
+- type: Documentation
+  url: https://gr-docs.aporia.com/
+- type: Features
+  data:
+  - name: LLM Guardrails
+    description: Low-latency policy enforcement on LLM prompts and responses with a library of pre-built detectors.
+  - name: Hallucination Detection
+    description: Detect ungrounded or fabricated responses in RAG and general LLM applications.
+  - name: Prompt Injection Detection
+    description: Identify direct and indirect prompt injection attempts.
+  - name: PII Detection
+    description: Screen prompts and responses for personally identifiable information.
+  - name: Custom Policies
+    description: Build organization-specific policies for restricted topics, competitor mentions, and brand-safe responses.
+  - name: ML Monitoring
+    description: Drift, data quality, performance, and custom monitor support for classical ML.
+  - name: Coralogix Integration
+    description: Native integration with Coralogix observability backend post-acquisition.
+- type: UseCases
+  data:
+  - name: LLM Application Guardrails
+    description: Enforce policies on prompts and responses in production GenAI applications.
+  - name: RAG Hallucination Prevention
+    description: Block ungrounded responses from retrieval-augmented generation pipelines.
+  - name: Brand Safety
+    description: Prevent off-topic, competitor, or off-brand responses from customer-facing LLM apps.
+  - name: ML Drift Monitoring
+    description: Detect distribution drift in classical ML models in production.
+- type: Integrations
+  data:
+  - name: OpenAI
+    description: Guardrails for OpenAI Chat Completions and Assistants.
+  - name: Anthropic
+    description: Guardrails for Anthropic Claude models.
+  - name: Azure OpenAI
+    description: Guardrails for Azure-hosted OpenAI deployments.
+  - name: AWS Bedrock
+    description: Guardrails for models accessed through AWS Bedrock.
+  - name: LangChain
+    description: Native integration for LangChain chains and agents.
+  - name: LlamaIndex
+    description: Integration for LlamaIndex RAG applications.
+  - name: Coralogix
+    description: Native integration with Coralogix logging, tracing, and observability backend.
+- type: AcquisitionNotice
+  description: Aporia was acquired by Coralogix in late 2024. The Aporia Guardrails technology now ships as Coralogix AI
+    Guardrails and Coralogix AI Observability. Standalone Aporia.com surfaces continue to operate during the transition
+    and should be cross-referenced against Coralogix's current product documentation.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
