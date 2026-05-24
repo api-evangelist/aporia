@@ -137,6 +137,8 @@ common:
   description: Aporia was acquired by Coralogix in late 2024. The Aporia Guardrails technology now ships as Coralogix AI
     Guardrails and Coralogix AI Observability. Standalone Aporia.com surfaces continue to operate during the transition
     and should be cross-referenced against Coralogix's current product documentation.
+- type: LLMsTxt
+  url: https://gr-docs.aporia.com/llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
