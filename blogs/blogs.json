@@ -2,13 +2,17 @@
   "repo": "aporia",
   "feeds": [
     {
-      "source": "https://coralogix.com/",
-      "feed_url": "https://coralogix.com/feed/",
+      "source": "https://www.aporia.com/learn/",
+      "feed_url": "https://www.aporia.com/learn/",
       "title": "",
-      "saved": 2,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://coralogix.com/",
+      "error": "URLError"
     }
   ],
   "post_count": 2,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
