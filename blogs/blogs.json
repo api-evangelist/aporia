@@ -2,17 +2,20 @@
   "repo": "aporia",
   "feeds": [
     {
-      "source": "https://www.aporia.com/learn/",
-      "feed_url": "https://www.aporia.com/learn/",
+      "source": "https://coralogix.com/feed/",
+      "feed_url": "https://coralogix.com/feed/",
       "title": "",
-      "saved": 0,
-      "method": "none"
+      "saved": 2,
+      "method": "feed"
     },
     {
       "source": "https://coralogix.com/",
-      "error": "URLError"
+      "feed_url": "https://coralogix.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 8,
+  "fetched": "2026-06-27T12:03:07Z"
 }
