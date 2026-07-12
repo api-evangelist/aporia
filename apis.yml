@@ -77,6 +77,8 @@ apis:
   description: Aporia ML Observability provided monitoring for classical ML models including drift detection, data quality
     checks, performance tracking, and custom monitors. Now consolidated into the Coralogix observability platform.
 common:
+- type: DomainSecurity
+  url: security/aporia-domain-security.yml
 - type: Website
   url: https://www.aporia.com/
 - type: CoralogixProduct
