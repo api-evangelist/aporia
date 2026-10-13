@@ -12,7 +12,7 @@
   channel: distribution
   evidence: https://aws.amazon.com/marketplace/seller-profile?id=05a4c307-864a-4db9-ac7e-5c7572114086
   source: edge
-  relationship: platform-app
+  relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
 - slug: aporia-microsoft-azure-marketplace
@@ -24,6 +24,6 @@
   channel: distribution
   evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Aporia
   source: edge
-  relationship: platform-app
+  relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
