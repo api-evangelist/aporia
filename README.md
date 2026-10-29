@@ -1,4 +1,4 @@
-# aporia
+# Aporia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aporia — AI guardrails and observability (acquired by Coralogix)
+Aporia was an AI guardrails and observability platform for production LLM and ML applications, known for low-latency guardrails covering hallucination, prompt injection, PII, toxicity, off-topic responses, and custom policies, alongside full ML monitoring for drift and data quality. Coralogix acquired Aporia in late 2024 and the Aporia guardrails technology is now offered as part of the Coralogix AI Observability and AI Guardrails product line, with the standalone Aporia.com experience consolidated into Coralogix's portfolio.
+
+**Areas:** AI Guardrails · ML Observability · LLM Monitoring · Coralogix · Acquired · Hallucination Detection · Policy Enforcement
+
+## Aporia on APIs.io
+
+Everything profiled for Aporia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aporia/](https://apis.io/providers/aporia/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Coralogix AI Guardrails](https://apis.io/apis/aporia/coralogix-ai-guardrails/) — Coralogix AI Guardrails is the post-acquisition continuation of Aporia's guardrails product, intercepting prompts and responses between applications and…
+- [Coralogix AI Observability](https://apis.io/apis/aporia/coralogix-ai-observability/) — Coralogix AI Observability combines Aporia's monitoring capabilities with Coralogix's logging and tracing backend to provide end-to-end visibility into LLM…
+- [Aporia Guardrails (Legacy)](https://apis.io/apis/aporia/aporia-guardrails-legacy/) — The original Aporia Guardrails product offered millisecond-latency policy enforcement on LLM prompts and responses with a library of pre-built detectors…
+- [Aporia ML Observability (Legacy)](https://apis.io/apis/aporia/aporia-ml-observability-legacy/) — Aporia ML Observability provided monitoring for classical ML models including drift detection, data quality checks, performance tracking, and custom…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aporia Domain Security](https://apis.io/security/aporia/aporia-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aporia Plans Pricing](https://apis.io/plans/aporia/aporia-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aporia Rate Limits](https://apis.io/rate-limits/aporia/aporia-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aporia Finops](https://apis.io/finops/aporia/aporia-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.aporia.com/)
+- [Documentation](https://gr-docs.aporia.com/)
+- [Blog](https://www.aporia.com/learn/)
+- [GitHub](https://github.com/aporia-ai)
+
+## API Evangelist rating
+
+**Kin Score 10.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aporia/](https://apis.io/providers/aporia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aporia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aporia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
